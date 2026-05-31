@@ -1,11 +1,14 @@
 from jesuit_coajudor_bio import BriefBiography
 
+def print_stars():
+    print("**********************************************")
+
 def select_person():
     while True:
         print("Which Dossier would you like to access?")
         for i, instance in enumerate(BriefBiography.instances):
-            print(f"{i + 1}. {instance.__class__.__name__} - {instance.name}")
-        print("**********************************************")
+            print(f"{i + 1}. Jesuit Coajudor -> {instance.name}")
+        print_stars()
 
         try:
             person = int(input("Enter one of the numbers: ")) - 1
@@ -13,10 +16,12 @@ def select_person():
                 return BriefBiography.instances[person]
             else:
                 print("Invalid Choice")
-                print("**********************************************")
+                print_stars()
                 return None
         except ValueError:
-            print("You can only enter numbers \n\n**********************************************")
+            print_stars()
+            print("You can only enter numbers")
+            print_stars()
 
 
 def select_information(instance):
@@ -26,7 +31,7 @@ def select_information(instance):
         print(f"Chose which data to display for {instance.name}:")
         for i, method in enumerate(methods):
             print(f"{i + 1}. {method}")
-        print("**********************************************")
+        print_stars()
 
         try:
             choice = int(input("Enter one of the numbers: ")) -1
@@ -35,10 +40,10 @@ def select_information(instance):
                 method()
             else:
                 print("Invalid Choice")
-            print("**********************************************")
+            print_stars()
         except ValueError:
             print("You can only enter numbers")
-            print("**********************************************")
+            print_stars()
             select_information(instance)
         cont2 = input(f"Continue browsing {instance.name}? [y/n] ")
         if cont2.lower() == "n":
@@ -46,15 +51,16 @@ def select_information(instance):
 
 def main():
     while True:
-        print("**********************************************")
+        print_stars()
         print("Welcome to Jesuit World Order Dossier Program!")
-        print("**********************************************")
+        print_stars()
         instance = select_person()
         if instance:
             select_information(instance)
         cont = input("Continue? (y/n): ")
         if cont.lower() == "n":
             break
+
 
 
 if __name__ == "__main__":

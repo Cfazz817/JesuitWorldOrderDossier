@@ -1,3 +1,4 @@
+starz = "****************************************"
 class BriefBiography:
     instances = []
 
@@ -14,8 +15,8 @@ class BriefBiography:
         self.locale_of_origin = str(locale_of_origin)
         self.locales_of_operation = list(locales_of_operation)
         self.known_for = list(known_for)
-        self.jesidue_class_attributes = list(jesidue_class_attributes) # identifies attributes containing jesidue ex. education,
-        self.orders_knighthoods = list(orders_knighthoods) #           |  occupation, religion, etc.
+        self.jesidue_class_attributes = list(jesidue_class_attributes)
+        self.orders_knighthoods = list(orders_knighthoods)
         BriefBiography.instances.append(self)
 
     def overview(self):
@@ -60,19 +61,19 @@ class BriefBiography:
             print(knighthoods)
 
     def get_birthplace_and_Locales_of_operation(self):
-        print("****************************************")
+        print(f"{starz}")
         print(f"{self.name} was born in {self.locale_of_origin} on {self.date_of_birth}")
-        print("****************************************\n")
+        print(f"{starz}\n")
         print(f"******************** {self.name}'s areas of operation ********************")
         for places in self.locales_of_operation:
             print(places)
 
     def get_birthdate(self):
-        print("****************************************")
+        print(f"{starz}")
         print(f"{self.name}'s birthdate is {self.date_of_birth}")
 
     def is_subject_alive(self):
-        print("****************************************")
+        print(f"{starz}")
         if self.alive:
             print(f"{self.name} is still living")
         else:
