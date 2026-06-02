@@ -1,19 +1,24 @@
-from jesuit_coajudor_bio import BriefBiography
+from jesuit_coajudor_bio import BriefBiography, ConsoleView
 
 def print_stars():
     print("**********************************************")
 
 def select_person():
+    try:
+        instances = BriefBiography.load_from_json('biographies.json')
+    except FileNotFoundError:
+        print("Could not find biographies.json")
+
     while True:
         print("Which Dossier would you like to access?")
-        for i, instance in enumerate(BriefBiography.instances):
+        for i, instance in enumerate(instances):
             print(f"{i + 1}. Jesuit Coajudor -> {instance.name}")
         print_stars()
 
         try:
             person = int(input("Enter one of the numbers: ")) - 1
-            if 0 <= person < len(BriefBiography.instances):
-                return BriefBiography.instances[person]
+            if 0 <= person < len(instances):
+                return instances[person]
             else:
                 print("Invalid Choice")
                 print_stars()
@@ -25,10 +30,11 @@ def select_person():
 
 
 def select_information(instance):
+    view = ConsoleView(instance)
     while True:
-        methods = [m for m in dir(instance) if callable(getattr(instance, m)) and not m.startswith("__")]
+        methods = [m for m in dir(view) if callable(getattr(view, m)) and not m.startswith("__")]
 
-        print(f"Chose which data to display for {instance.name}:")
+        print(f"Choose which data to display for {instance.name}:")
         for i, method in enumerate(methods):
             print(f"{i + 1}. {method}")
         print_stars()
@@ -36,7 +42,7 @@ def select_information(instance):
         try:
             choice = int(input("Enter one of the numbers: ")) -1
             if 0 <= choice < len(methods):
-                method = getattr(instance, methods[choice])
+                method = getattr(view, methods[choice])
                 method()
             else:
                 print("Invalid Choice")
@@ -60,8 +66,6 @@ def main():
         cont = input("Continue? (y/n): ")
         if cont.lower() == "n":
             break
-
-
 
 if __name__ == "__main__":
     main()

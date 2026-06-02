@@ -1,0 +1,293 @@
+[
+  {
+    "name": "Timothy Leary",
+    "education": [
+      "College of the Holy Cross",
+      "United States Military Academy at West Point",
+      "University of Alabama (B.A. in Psychology)",
+      "Ohio State University (Army Specialized Training Program)",
+      "Washington State University (M.A. in Psychology)",
+      "University of California, Berkeley (Ph.D. in Clinical Psychology)"
+    ],
+    "religion": [
+      "Roman Catholic"
+    ],
+    "occupations": [
+      "Professor",
+      "Intelligence Asset"
+    ],
+    "alive": false,
+    "date_of_birth": "10/22/1920",
+    "locale_of_origin": "Springfield, Massachusetts",
+    "locales_of_operation": [
+      "Newton, Massachusetts: While lecturing at Harvard University",
+      "Europe (Italy, Spain, Florence): After his research grant was terminated and following his first wife's death",
+      "Millbrook, New York, where he conducted psychedelic experiments",
+      "Cuernavaca, MexicoWhere he first experienced hallucinogenic mushrooms",
+      "Southern California (Beverly Hills): After being freed from prison"
+    ],
+    "known_for": [
+      "Advocating for the mass use of hallucinogenic drugs during the 1960's era"
+    ],
+    "jesidue_class_attributes": [
+      "education",
+      "religion",
+      "locales_of_operation"
+    ],
+    "orders_knighthoods": [
+      "none"
+    ]
+  },
+  {
+    "name": "Allen Welsh Dulles",
+    "education": [
+      "Homeschooled",
+      "Auburn High School in Auburn, New York",
+      "the École Alsa tienne in Paris",
+      "Princeton University",
+      "George Washington University"
+    ],
+    "religion": [
+      "Roman Catholic"
+    ],
+    "occupations": [
+      "U.S. Diplomatic Service Officer",
+      "U.S. Delegate / Legal Adviser, Versailles Peace Conference",
+      "Lawyer",
+      "International Lawyer, Sullivan & Cromwell",
+      "Corporate Board Member / Advisor",
+      "Chief of OSS Station, Bern, Switzerland",
+      "Consultant to U.S. Intelligence Community",
+      "Deputy Director for Plans, CIA",
+      "CIA Director",
+      "Author and Public Commentator on Intelligence",
+      "Member, Warren Commission"
+    ],
+    "alive": false,
+    "date_of_birth": "4/17/1893",
+    "locale_of_origin": "Watertown, NY",
+    "locales_of_operation": [
+      "Watertown, New York, USA",
+      "Washington, D.C., USA",
+      "New York City, New York, USA",
+      "Bern, Switzerland",
+      "Vienna, Austria",
+      "Berlin, Germany",
+      "Paris, France",
+      "Versailles, France",
+      "London, United Kingdom",
+      "Rome, Italy",
+      "Tehran, Iran",
+      "Ankara, Turkey",
+      "Guatemala City, Guatemala",
+      "Havana, Cuba",
+      "Mexico City, Mexico",
+      "New Delhi, India",
+      "Seoul, South Korea",
+      "Beijing, China",
+      "Hanoi, Vietnam",
+      "North Africa"
+    ],
+    "known_for": [
+      "CIA Director",
+      "Nazi collaborator",
+      "Operation Sunrise",
+      "Guatemalan Coup for United Fruit",
+      "Serving Clients in The Third Reich for Sullivan and Cromwell"
+    ],
+    "jesidue_class_attributes": [
+      "religion",
+      "occupations",
+      "locales_of_operation",
+      "orders_knighthoods"
+    ],
+    "orders_knighthoods": [
+      "SMOM"
+    ]
+  },
+  {
+    "name": "John Foster Dulles",
+    "education": [
+      "Ethical Culture School",
+      "Princeton University",
+      "University of Geneva"
+    ],
+    "religion": [
+      "Roman Catholic"
+    ],
+    "occupations": [
+      "Lawyer",
+      "International Law Practitioner",
+      "International Law Consultant / Advisor",
+      "U.S. Delegate / Advisor, League of Nations",
+      "Special Advisor, U.S. State Department",
+      "Legal Counsel / Advisor, U.S. Government",
+      "Secretary of State, U.S. Government",
+      "Author / Commentator on International Affairs"
+    ],
+    "alive": false,
+    "date_of_birth": "2/25/1888",
+    "locale_of_origin": "Washington, DC",
+    "locales_of_operation": [
+      "Watertown, USA",
+      "Washington, D.C., USA",
+      "New York City, USA",
+      "Paris, France",
+      "Versailles, France",
+      "Berlin, Germany",
+      "London, United Kingdom",
+      "Geneva, Switzerland",
+      "San Francisco, USA",
+      "Tokyo, Japan",
+      "Seoul, South Korea",
+      "Manila, Philippines",
+      "Taipei, Taiwan",
+      "Hanoi, Vietnam",
+      "Rome, Italy",
+      "Bonn, Germany"
+    ],
+    "known_for": [
+      "Nazi Collaborator",
+      "Secretary of State",
+      "Fathered a Jesuit"
+    ],
+    "jesidue_class_attributes": [
+      "religion",
+      "known_for",
+      "occupations",
+      "orders_knighthoods"
+    ],
+    "orders_knighthoods": [
+      "SMOM"
+    ]
+  },
+  {
+    "name": "William Joseph Casey",
+    "education": [
+      "Fordham University",
+      "Catholic University of America",
+      "St. John's University School of Law"
+    ],
+    "religion": [
+      "Roman Catholic"
+    ],
+    "occupations": [
+      "Lawyer",
+      "Research Director, Office of Strategic Services (OSS)",
+      "Special Assistant to the Secretary of State",
+      "Chairman, Securities and Exchange Commission (SEC)",
+      "Under Secretary of State for Economic Affairs",
+      "President, Export-Import Bank of the United States",
+      "Campaign Manager, Ronald Reagan Presidential Campaign",
+      "Director of Central Intelligence (CIA) (1981–1987)"
+    ],
+    "alive": false,
+    "date_of_birth": "3/13/1913",
+    "locale_of_origin": "Elmhurst, Queens, New York",
+    "locales_of_operation": [
+      "Elmhurst, Queens, New York, USA",
+      "New York City, New York, USA",
+      "Washington, D.C., USA",
+      "Langley, Virginia, USA",
+      "Europe",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Middle East",
+      "Central America",
+      "South America",
+      "Afghanistan",
+      "Japan"
+    ],
+    "known_for": [
+      "CIA Director",
+      "Expanded cover operations during the cold war",
+      "Iran Contra",
+      "Anti-Communist",
+      "Died before he could testify",
+      "Supporting the Afghan Mujahideen against the USSR",
+      "Covert operations in Central America",
+      "Reversed the post-watergate 'retrenchment' of US Intellegence"
+    ],
+    "jesidue_class_attributes": [
+      "Education",
+      "Religion",
+      "Occupations",
+      "Locales of Operation",
+      "Known For"
+    ],
+    "orders_knighthoods": [
+      "SMOM"
+    ]
+  },
+  {
+    "name": "William Egan Colby",
+    "education": [
+      "St. Ignatius Loyola School, Washington, D.C.",
+      "Gonzaga College High School, Washington, D.C.",
+      "Princeton University",
+      "Columbia Law School",
+      "United States Army officer training",
+      "OSS intelligence training",
+      "Jedburgh Team special operations training"
+    ],
+    "religion": [
+      "Roman Catholic"
+    ],
+    "occupations": [
+      "United States Army officer",
+      "OSS officer",
+      "Jedburgh Team special operations officer",
+      "CIA officer",
+      "CIA station chief",
+      "Chief of Station, Saigon",
+      "Director of the Phoenix Program",
+      "Senior counterinsurgency strategist",
+      "Executive Director-Comptroller of the CIA",
+      "Deputy Director for Operations (CIA)",
+      "Director of Central Intelligence",
+      "Lawyer",
+      "Author",
+      "Public speaker",
+      "Intelligence consultant",
+      "Academic lecturer"
+    ],
+    "alive": true,
+    "date_of_birth": "1/4/1920",
+    "locale_of_origin": "St. Paul, Minnesota",
+    "locales_of_operation": [
+      "Washington, D.C. & United States",
+      "United Kingdom",
+      "France",
+      "Norway",
+      "Rome, Italy",
+      "Italy",
+      "Saigon, Vietnam",
+      "South Vietnam",
+      "Laos",
+      "Cambodia",
+      "Global / worldwide intelligence oversight"
+    ],
+    "known_for": [
+      "Director of Central Intelligence (DCI)",
+      "Oversight of the U.S. Intelligence Community",
+      "Covered up CIA drug trafficking during the Church Committee investigations",
+      "Leadership of the Phoenix Program in Vietnam",
+      "Expertise in counterinsurgency, insurgency and covert operations",
+      "World War II OSS officer and Jedburgh Team operative",
+      "Author and lecturer on intelligence, law, and ethics",
+      "Cleaned up the Image of intelligence operations",
+      "Oversaw the 'Blown-Cover-Is-Cover' subterfuge that was the 'Church Hearings'"
+    ],
+    "jesidue_class_attributes": [
+      "Education",
+      "Occupations",
+      "Religion",
+      "Known For"
+    ],
+    "orders_knighthoods": [
+      "none"
+    ]
+  }
+]
